@@ -1,0 +1,79 @@
+
+html {
+	background-color: #0e0e0e;
+}
+
+body {
+	width: 800px;
+	margin: 0 auto;
+	padding: 0 80px;
+	background-color: white;
+	font-family: 'Ubuntu', sans-serif;
+	border-bottom: 6px solid gray;
+	position: relative;
+}
+
+header {
+	border-bottom: 3px solid gray;
+	padding-top: 60px;
+}
+
+section {
+	font-size: 0;
+	border-bottom: 3px solid gray;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+
+img {
+	display: inline-block;
+	width: 50%;
+
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+.content {
+	display: inline-block;
+	width: 50%;
+	vertical-align: top;
+}
+
+.content p {
+	font-size: 18px;
+	text-align: justify;
+	padding-right: 40px;
+}
+
+table {
+	text-align: center;
+	width:100%;
+
+}
+
+tbody tr {
+	height: 40px;
+}
+tbody tr:nth-child(2n){
+	background-color: gray;
+}
+
+.table-caption {
+	color:gray;
+	font-style: italic;
+}
+
+.close {
+	position: absolute;
+	right: 30px;
+	top:30px;
+	font-size:22px;
+	font-weight: bold;
+
+}
